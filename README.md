@@ -10,3 +10,5 @@ JavaScript repository
 # Neler Var?
 
 * [use-strict](https://github.com/akcauser/JavaScript/tree/master/codes/use-strict)
+* [variables](https://github.com/akcauser/JavaScript/tree/master/codes/variables)
+* [console.log()](https://github.com/akcauser/JavaScript/tree/master/codes/console-log)
