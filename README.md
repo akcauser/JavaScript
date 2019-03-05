@@ -9,4 +9,4 @@ JavaScript repository
 
 # Neler Var?
 
-* [use-strict](https://github.com/akcauser/JavaScript/tree/master/Bazı%20Kullanımlar)
+* [use-strict](https://github.com/akcauser/JavaScript/tree/master/codes/use-strict)
