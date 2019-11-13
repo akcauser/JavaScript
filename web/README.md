@@ -1,3 +1,3 @@
 # Javascript
-My javascript repository.
+Javascript web working repository.
 
