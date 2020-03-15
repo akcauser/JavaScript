@@ -1,0 +1,52 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Sayaç</title>
+</head>
+<body>
+    
+    
+    <div class="clock-div">
+        <h1 id="hour">00</h1>
+        <h1> : </h1>
+        <h1 id="minute">00</h1>
+        <h1> : </h1>
+        <h1 id="second">00</h1>
+    </div>
+    
+
+
+    <script>
+        var secondCounter = 0;
+        var minuteCounter = 0;
+        var hourCounter = 0;
+        setInterval(interval = function(){
+            document.getElementById("second").innerHTML = secondCounter;
+            secondCounter++;
+            if(secondCounter == 60){
+                secondCounter = 0;
+                minuteIncrease();
+            }            
+
+       }, 1000);
+
+       var minuteIncrease = function(){
+           minuteCounter++;
+           document.getElementById("minute").innerHTML = minuteCounter;
+           if(minuteCounter == 60){
+               minuteCounter = 0;
+               hourIncrease();
+           }
+       } 
+
+       var hourIncrease = function(){
+           hourCounter++;
+           document.getElementById("hour").innerHTML = hourCounter;
+       } 
+        
+    </script>
+
+
+</body>
+
+</html>
